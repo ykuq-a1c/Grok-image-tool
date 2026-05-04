@@ -1,6 +1,6 @@
 # Grok Image Tool
 
-xAI（Grok Imagine）または Venice AI の画像編集 API を使って、複数の画像をまとめて一括編集できる Windows 用 GUI ツールです。
+xAI または Venice AI の画像編集 API (どちらも grok imagine image edit) を使って、複数の画像をまとめて一括編集できる Windows 用 GUI ツールです。
 
 ## 機能
 
@@ -31,15 +31,16 @@ python main.py
 
 ## APIキーの取得
 
-### xAI（Grok Imagine）
+### xAI
 1. https://console.x.ai/ にアクセスしてアカウントを作成
-2. API キーを発行してコピー
+2. API Keys でキーを発行してコピー
 
 ### Venice AI
 1. https://venice.ai/ にアクセスしてアカウントを作成
-2. Settings → API から API キーを発行
+2. API → Generate Key でキーを発行してコピー
 
-どちらも従量課金です。使いすぎに注意してください。
+APIキーは発行時に1回しか表示されません。忘れずにコピーしてください。<br>
+また、どちらも従量課金です。使いすぎにはご注意ください。
 
 ## 設定
 
@@ -47,7 +48,7 @@ python main.py
 
 ## 使い方
 
-1. Tab1「処理対象」に画像をドロップ（またはボタンで選択）
+1. 「処理対象」タブの登録エリアに画像をドロップ（またはボタンで選択）
 2. 出力フォルダを指定
 3. プロンプトを入力（例: `背景を白に変えて`）
 4. 「開始」ボタンを押す
