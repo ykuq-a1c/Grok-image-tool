@@ -1,0 +1,17 @@
+# ユーザー設定・状態（APIキーを含む）
+settings.json
+state.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# 開発用メモ・アーカイブ
+archive/
+design_memo.md
